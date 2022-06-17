@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+background-color: #4e413b
+}
+
+.container {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav {
+  background-color: #4e413b;
+  color: #E2DED3;
+  display:flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  /* list style will get rid of the dots */
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem
+
+}
+
+/* will set color to active Li link */ 
+.nav li.active {
+  background: #555;
+}
+
+/* hover to set selection as cursor goes over it */
+.nav li:hover{
+  background: #555;
+}
+
