@@ -1,0 +1,10 @@
+.container{
+  box-sizing: border-box;
+  border-color: black;
+  padding: 15rem;
+  margin: 0;
+  display: Flex;
+  align-items: center;
+  justify-content: center;
+
+}

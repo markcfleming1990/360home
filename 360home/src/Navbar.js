@@ -5,6 +5,7 @@ export default function NavBar() {
     <nav className="nav">
       <Link to="/" className="site-title">
         360 Home Management
+        <Link to="/public/favicon.ico" className="360Img"></Link>
       </Link>
       <ul>
         <CustomLink to="/about">About</CustomLink>
